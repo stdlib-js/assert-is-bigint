@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isBigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@esm/index.mjs';
+import isBigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@v0.1.0-esm/index.mjs';
 ```
 
 #### isBigInt( value )
@@ -107,7 +107,7 @@ bool = isBigInt.isObject( Object( BigInt( '1' ) ) );
 
 import hasBigIntSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-bigint-support@esm/index.mjs';
 import BigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/bigint-ctor@esm/index.mjs';
-import isBigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@esm/index.mjs';
+import isBigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@v0.1.0-esm/index.mjs';
 
 var bool;
 if ( hasBigIntSupport() ) {
