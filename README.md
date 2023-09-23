@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-isBigInt = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@umd/browser.js' )
+isBigInt = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var isBigInt = require( 'path/to/vendor/umd/assert-is-bigint/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -129,7 +129,7 @@ bool = isBigInt.isObject( Object( BigInt( '1' ) ) );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-bigint-support@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/bigint-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
