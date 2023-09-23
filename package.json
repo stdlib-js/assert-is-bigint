@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-bigint",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Test if a value is a BigInt.",
   "license": "Apache-2.0",
   "author": {
@@ -37,16 +37,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-bigint-support": "^0.0.8",
-    "@stdlib/utils-constant-function": "^0.0.8",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
-    "@stdlib/utils-native-class": "^0.0.8"
+    "@stdlib/assert-has-bigint-support": "^0.1.0",
+    "@stdlib/utils-constant-function": "^0.1.0",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0",
+    "@stdlib/utils-native-class": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/bigint-ctor": "^0.0.7",
-    "@stdlib/object-ctor": "^0.0.1",
+    "@stdlib/assert-is-boolean": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bigint-ctor": "^0.1.0",
+    "@stdlib/object-ctor": "^0.1.0",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
