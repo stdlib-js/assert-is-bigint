@@ -35,38 +35,30 @@ limitations under the License.
 
 > Test if a value is a [BigInt][mdn-bigint].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-bigint
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isBigInt = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isBigInt = require( 'path/to/vendor/umd/assert-is-bigint/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isBigInt;
-})();
-</script>
+var isBigInt = require( '@stdlib/assert-is-bigint' );
 ```
 
 #### isBigInt( value )
@@ -74,6 +66,7 @@ If no recognized module system is present, access bundle contents via the global
 Tests if a value is a [`BigInt`][mdn-bigint].
 
 ```javascript
+var Object = require( '@stdlib/object-ctor' );
 var BigInt = require( '@stdlib/bigint-ctor' );
 
 var bool = isBigInt( BigInt( '1' ) );
@@ -88,6 +81,7 @@ bool = isBigInt( Object( BigInt( '1' ) ) );
 Tests if a `value` is a primitive [`BigInt`][mdn-bigint].
 
 ```javascript
+var Object = require( '@stdlib/object-ctor' );
 var BigInt = require( '@stdlib/bigint-ctor' );
 
 var bool = isBigInt.isPrimitive( BigInt( '1' ) );
@@ -102,6 +96,7 @@ bool = isBigInt.isPrimitive( Object( BigInt( '1' ) ) );
 Tests if a `value` is a [`BigInt`][mdn-bigint] object.
 
 ```javascript
+var Object = require( '@stdlib/object-ctor' );
 var BigInt = require( '@stdlib/bigint-ctor' );
 
 var bool = isBigInt.isObject( BigInt( '1' ) );
@@ -123,15 +118,10 @@ bool = isBigInt.isObject( Object( BigInt( '1' ) ) );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-bigint-support@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/bigint-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var hasBigIntSupport = require( '@stdlib/assert-has-bigint-support' );
+var BigInt = require( '@stdlib/bigint-ctor' );
+var isBigInt = require( '@stdlib/assert-is-bigint' );
 
 var bool;
 if ( hasBigIntSupport() ) {
@@ -163,11 +153,6 @@ bool = isBigInt( true );
 
 bool = isBigInt( function foo() {} );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
