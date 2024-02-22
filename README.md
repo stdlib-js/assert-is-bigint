@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isBigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-bigint/tags). For example,
+
+```javascript
 import isBigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@v0.2.1-esm/index.mjs';
 ```
 
@@ -110,7 +115,7 @@ bool = isBigInt.isObject( Object( BigInt( '1' ) ) );
 
 import hasBigIntSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-bigint-support@esm/index.mjs';
 import BigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/bigint-ctor@esm/index.mjs';
-import isBigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@v0.2.1-esm/index.mjs';
+import isBigInt from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint@esm/index.mjs';
 
 var bool;
 if ( hasBigIntSupport() ) {
