@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-bigint",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Test if a value is a BigInt.",
   "license": "Apache-2.0",
   "author": {
@@ -38,13 +38,13 @@
   },
   "dependencies": {
     "@stdlib/assert-has-bigint-support": "^0.2.1",
-    "@stdlib/utils-constant-function": "^0.2.1",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
-    "@stdlib/utils-native-class": "^0.2.1"
+    "@stdlib/utils-constant-function": "^0.2.2",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/utils-native-class": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.1",
-    "@stdlib/bigint-ctor": "^0.2.1",
+    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/bigint-ctor": "^0.2.2",
     "@stdlib/object-ctor": "^0.2.1",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
