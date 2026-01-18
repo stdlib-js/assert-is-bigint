@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-13)
+## Unreleased (2026-01-18)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`2828866`](https://github.com/stdlib-js/stdlib/commit/282886626527e6ecead4302731138ba11c04998f) - add missing exports comment directive
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`2828866`](https://github.com/stdlib-js/stdlib/commit/282886626527e6ecead4302731138ba11c04998f) - **fix:** add missing exports comment directive _(by Philipp Burckhardt)_
 -   [`6adff0f`](https://github.com/stdlib-js/stdlib/commit/6adff0f73daa1130b70161952c2c6afde012fa70) - **chore:** fix JavaScript lint errors [(#8221)](https://github.com/stdlib-js/stdlib/pull/8221) _(by Jenish)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 
