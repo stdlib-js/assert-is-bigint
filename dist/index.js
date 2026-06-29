@@ -1,15 +1,15 @@
-"use strict";var e=function(r,i){return function(){return i||r((i={exports:{}}).exports,i),i.exports}};var t=e(function(G,v){
-function x(r){return typeof r=="bigint"}v.exports=x
-});var f=e(function(H,o){
-function B(r){try{return typeof r.valueOf()=="bigint"}catch(i){return!1}}o.exports=B
-});var s=e(function(J,q){
-var I=require('@stdlib/utils-native-class/dist'),P=f();function d(r){return typeof r=="object"&&I(r)==="[object BigInt]"&&P(r)}q.exports=d
-});var b=e(function(K,p){
-var h=t(),R=s();function C(r){return h(r)||R(r)}p.exports=C
-});var y=e(function(L,g){
-var l=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),n=b(),F=t(),S=s();l(n,"isPrimitive",F);l(n,"isObject",S);g.exports=n
-});var m=e(function(M,j){
-var O=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),u=require('@stdlib/utils-constant-function/dist'),a=u(!1),k=u(!1),w=u(!1);O(a,"isPrimitive",k);O(a,"isObject",w);j.exports=a
-});var z=require('@stdlib/assert-has-bigint-support/dist'),A=y(),D=m(),c;z()?c=A:c=D;module.exports=c;
+"use strict";var i=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(x){throw (e=0, x)}};};var t=i(function(H,v){
+function B(r){return typeof r=="bigint"}v.exports=B
+});var f=i(function(J,o){
+function I(r){try{return typeof r.valueOf()=="bigint"}catch(e){return!1}}o.exports=I
+});var s=i(function(K,q){
+var P=require('@stdlib/utils-native-class/dist'),d=f();function h(r){return typeof r=="object"&&P(r)==="[object BigInt]"&&d(r)}q.exports=h
+});var b=i(function(L,p){
+var R=t(),C=s();function F(r){return R(r)||C(r)}p.exports=F
+});var y=i(function(M,g){
+var l=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),n=b(),S=t(),k=s();l(n,"isPrimitive",S);l(n,"isObject",k);g.exports=n
+});var m=i(function(N,j){
+var O=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),u=require('@stdlib/utils-constant-function/dist'),a=u(!1),w=u(!1),z=u(!1);O(a,"isPrimitive",w);O(a,"isObject",z);j.exports=a
+});var A=require('@stdlib/assert-has-bigint-support/dist'),D=y(),E=m(),c;A()?c=D:c=E;module.exports=c;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
