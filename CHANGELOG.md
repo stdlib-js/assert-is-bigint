@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`a3c5b97`](https://github.com/stdlib-js/stdlib/commit/a3c5b97aedf85d8489548c7d3c94ff994af0c8e8) - **refactor:** rename variable [(#16344)](https://github.com/stdlib-js/stdlib/pull/16344) _(by Philipp Burckhardt)_
 -   [`ce4edb1`](https://github.com/stdlib-js/stdlib/commit/ce4edb122815924a0aecc97ec48e69340992fdfa) - **docs:** add examples [(#13184)](https://github.com/stdlib-js/stdlib/pull/13184) _(by Philipp Burckhardt)_
 -   [`9ad27d6`](https://github.com/stdlib-js/stdlib/commit/9ad27d68a433072554c8340fd5ea86266ab487fb) - **docs:** fix TSDoc errors in `assert` declarations [(#12454)](https://github.com/stdlib-js/stdlib/pull/12454) _(by Philipp Burckhardt, Athan Reines)_
 -   [`67c0a20`](https://github.com/stdlib-js/stdlib/commit/67c0a2044e515ea6733765a48be54f09ea749d8f) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11398)](https:-/github.com/stdlib-js/stdlib/pull/11398) _(by Karan Anand)_
